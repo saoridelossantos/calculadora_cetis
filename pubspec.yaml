@@ -1,0 +1,25 @@
+name: calculadora_saori
+description: "Calculadora Científica para iPhone - Proyecto Escolar"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# AQUÍ EMPIEZA LA SECCIÓN DE FLUTTER (SOLO UNA VEZ)
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logocetis.png
