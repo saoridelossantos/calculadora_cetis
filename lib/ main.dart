@@ -283,3 +283,4 @@ class _ScientificCalculatorState extends State<ScientificCalculator> {
     );
   }
 }
+ 
